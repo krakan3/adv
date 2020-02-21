@@ -23,33 +23,32 @@
     <script src="https://kit.fontawesome.com/3a0ca78c25.js"></script>
 </head>
 <body>
-	<header>    
+	<header> 
+    <div class="container">
     <div class="brief">
-      <h1>Адвокат Аракчеев </h1>
+      <h1>Адвокат<br> Аракчеев </h1>
       <h2>Адвокатский кабинет</h2>
     </div>
-    <div class="sides">
-      <div class="location">
+    <div class="contact">
+      <div class="adress">
       <i class="fas fa-search-location"></i>
   		<p>г. Балаково,<br> ул. Академика Жук, 54</p>
       </div>
-      <div class="contact">
+      <div class="phone">
         <i class="fas fa-phone-volume"></i>
         <p>89271422802</p>
       </div>
     </div>
-
-
+    </div>   
 	</header>
   <section class="review">
-    <div class="photo">
-    </div>
     <div class="about">
       <h3>Ваш адвокат</h3>
       <h2>Аракчеев Сергей Викторович</h2>
       <p>Саратовская область, город Балаково,<br> улица Академика Жук, 54</p>
     </div>
-
+    <div class="photo">
+    </div>
   </section>
   <section class="provide">
     <h2>Услуги, которые предоставляет<br>
@@ -84,7 +83,6 @@
     </div>
   </section>
   <section class="form">
-    <div class="all">
       <div class="desc">
         <h1>Оставить заявку</h1>
         <p>Адвокаты и юристы должны проводить четкие границы своей деятельности, расставляя необходимые акценты. Аракчеев С.В. отвечает этим требованиям, обеспечивая подробные консультации, защищая клиентов в период следствия и суда, а также подключаясь к расследованию уголовных дел.</p>
@@ -94,7 +92,6 @@
         <input type="name" name="email" placeholder="Ваш email"> 
         <button type="submit">Подтвердить отправку</button>
       </form>
-    </div>
   </section>
   <footer>
     <div class="sides">
