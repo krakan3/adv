@@ -17,6 +17,9 @@
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="css/adapt.css">
     <link href="https://fonts.googleapis.com/css?family=Open+Sans&display=swap" rel="stylesheet">
+    <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+    <link rel="manifest" href="/site.webmanifest">
 
     <!-- Links
     ================================================== -->
@@ -36,7 +39,7 @@
       </div>
       <div class="phone">
         <i class="fas fa-phone-volume"></i>
-        <p>89271422802</p>
+        <p>8(927)1422802</p>
       </div>
     </div>
     </div>   
@@ -94,14 +97,12 @@
       </form>
   </section>
   <footer>
-    <div class="sides">
-      <div class="location">
-      <p>Адресс: <br>
-      г. Балаково,ул. Академика Жук, 54</p>
+    <div class="contact">
+      <div class="adress">
+      <p>г. Балаково,<br> ул. Академика Жук, 54</p>
       </div>
-      <div class="contact">
-        <p>Контактный телефон:
-        89271422802</p>
+      <div class="phone">
+        <p>8(927)1422802</p>
       </div>
     </div>
   </footer>

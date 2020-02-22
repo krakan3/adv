@@ -1,154 +1,87 @@
 @media (max-width: 1050px){
-	div.brief{
-  padding:50px 0 0 0 ;
-}
 header{
-	background-size: 100% 65%, auto auto;
+	background-size: 100% 100%, auto auto;
 }
-header div.location {
+header div.contact {
   font-size: 16px;
-}
-header div.contact{
-  font-size:16px;
 }
 	section.review{
 	background-color: white;
 	position:relative;
-  -webkit-transform: translate(-50%, -35%);
-  width: 90%;
+  display:flex;
+  width:auto;
   border-radius: 5px;
   background: unset;
   box-shadow: -11px 8px 29px -13px #000000;
-  height:620px;
+  height:400px;
   padding:0;
   margin:0;
 	}
 	div.photo{
-  float:right;
-  background-image: url(/images/man.jpg);
-  background-repeat: no-repeat;
-  background-size: 100% 100%, auto auto;
-  background-position:top;
-	border-top-left-radius: 5px;
-	border-top-right-radius: 5px;
-	border-bottom-right-radius: 0px;
-  width:100%;
-  height:100%;
+  background:unset;
 }
 section.provide{
-  height: 30%;
-  margin-top: -200px;
-}
+	  height:100%;
+    background-size: 75% 75%, auto auto;
+  }
   div.servises{
   display:grid;
   grid-template-columns: 1fr 1fr 1fr;
   padding:50px 0 0 0;
 }
-
+}
+@media (max-width: 800px){
 section.form{
-	margin-top:100px;
+  display:flex;
+  flex-direction: column;
 }
-div.desc{
-
-  margin-top:50px;
-
+.provide{
+  background:unset;
 }
+.about{
+  width:100%;
+}
+header{
+	background-size: 200% 100%, auto auto;
 }
 @media(max-width:600px){
 	h1{
 		font-size: 25px;
 	}
 header{
-width:100%;
-height:35%;
- background-size: 125% 75%, auto auto;
-  display: grid;
-  grid-template-columns: 1fr 1fr ;
-
-
+ background-size: 175% 100%, auto auto;
 }
-
-.adress, .phone{
-  width: 270px;
-}
-
-.contact p {
-  font-size: 12px;
+header .container{
+  display:flex;
+  flex-direction: column;
 }
 div.brief{
-  width:150px;
-  padding: 0;
-}
-
-div.brief h1{
-  font-size: 20px;
-}
-
-header div.sides{
-	height:200px;
-	align-items: right;
-	float:right;
-}
-header div.sides{
-  display:grid;
-  grid-template-rows: 1fr 1fr;
-}
-.sides div{
-	height:20px;
-}
-header div.contact{
-  padding: 15px 0  0 0;
-}
-header div.location{
-	padding-left: 0;
+	width:150px;
 }
 	section.review{
+  grid-template-rows: 1fr 1fr;
   background:unset;
-  position:relative;
-  -webkit-transform: translate(-50%, -0%);
 } 
-div.desc{
-  width:100%;
-  padding: 0;
-  margin:0;
+.desc h1{
+
   text-align: center;
 }
-div.contact{
-	width:100%;
-  padding: 0;
-  margin:0;
-}
-section.provide{
-  height:auto;
-  margin: 0;
-}
-section.form{
-	display:table;
-}
-div.all{
-	display:grid;
-	grid-template-rows: 1fr 1fr;
-	width:100%;
-	height: 200px;
-} 
   div.servises{
   display:table-row-group;
   grid-template-rows: 1fr 1fr 1fr 1fr 1fr;
   padding:10px 0 0 0;
 }
-footer .location{
-	padding:0;
-}
-footer .contact{
-	padding:0;
-}
-footer{
-	height:50px;
+.form{
+  margin:0;
+  padding:10px 5% 10px 5%;
 }
 }
 @media(max-width:400px){
 	header{
-		height:30%;
-		background-size: 150% 90%, auto auto;
+		background-size: 300% 350%, auto auto;
+    height:100%;
 	}
+  .form input{
+  width: 175px;
+}
 }

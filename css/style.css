@@ -36,8 +36,11 @@ header{
 .contact p{
   font-size: 16px;
 }
+.phone{
+  padding-top:15px;
+}
 
-section.provide{
+.provide{
   background-image: url(/images/headbg.webp);
   background-repeat: no-repeat;
   width:100%;
@@ -45,7 +48,6 @@ section.provide{
   background-size: 40% 100%, auto auto;
   background-position:top;
   text-align: center;
-  padding-bottom: 210px;
 
 }
 .servises{
@@ -56,6 +58,7 @@ section.provide{
 }
 .servises div{
   padding-left:15px;
+  padding-bottom: 10px;
 }
 
 .servises i{
@@ -78,6 +81,7 @@ h2{
 
 .form{
   background-image: url(/images/clmn.jpg);
+  background-repeat: no-repeat;
   display: flex;
   color:white;
   padding:100px;
@@ -97,7 +101,9 @@ h2{
     border: 1px solid #fff;
   display: block;
 }
-
+.form input:hover{
+  background:rgba(240, 230, 140, 0.7);
+}
 .form button{
   height: 50px;
   width: 100px;
@@ -107,9 +113,12 @@ h2{
   font-size: 16px;
   background: #9B6D3C;
   color: white;
+  cursor:pointer;
   font-family: 'Roboto', sans-serif;
 }
-
+.form button:hover{
+  background:rgba(218, 165, 32, 0.7);
+}
 
 .adress,.phone{
   display: flex;
@@ -160,23 +169,7 @@ h2{
   width:50%;
   height:100%;
 }
-
-footer{
-  background-color: white;
-}
-footer div.sides{
-  display: inline-flex;
-  width:100%;
-}
-footer .location{
-  padding:5px 0 10px 15%;
-  font-size:16px;
-  float:left;
-  width:50%;
-
-}
-footer .contact{
-  font-size:20px;
-  float:right;
-  padding-top:10px;
+footer {
+  background:rgba(189, 183, 107);
+  padding-left:10%;
 }
