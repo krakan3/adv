@@ -14,13 +14,12 @@ header div.contact{
 	section.review{
 	background-color: white;
 	position:relative;
-  display:grid;
-  grid-template-rows: 2fr 1fr;
-  width:auto;
+  -webkit-transform: translate(-50%, -35%);
+  width: 90%;
   border-radius: 5px;
   background: unset;
   box-shadow: -11px 8px 29px -13px #000000;
-  height:750px;
+  height:620px;
   padding:0;
   margin:0;
 	}
@@ -37,8 +36,8 @@ header div.contact{
   height:100%;
 }
 section.provide{
-	  height:30%;
-	  margin-top:-300px;
+  height: 30%;
+  margin-top: -200px;
 }
   div.servises{
   display:grid;
@@ -55,11 +54,6 @@ div.desc{
 
 }
 }
-@media (max-width: 800px){
-
-header{
-	background-size: 150% 65%, auto auto;
-}
 @media(max-width:600px){
 	h1{
 		font-size: 25px;
@@ -73,8 +67,21 @@ height:35%;
 
 
 }
+
+.adress, .phone{
+  width: 270px;
+}
+
+.contact p {
+  font-size: 12px;
+}
 div.brief{
-	width:150px;
+  width:150px;
+  padding: 0;
+}
+
+div.brief h1{
+  font-size: 20px;
 }
 
 header div.sides{
@@ -96,8 +103,9 @@ header div.location{
 	padding-left: 0;
 }
 	section.review{
-  grid-template-rows: 1fr 1fr;
   background:unset;
+  position:relative;
+  -webkit-transform: translate(-50%, -0%);
 } 
 div.desc{
   width:100%;
@@ -111,7 +119,8 @@ div.contact{
   margin:0;
 }
 section.provide{
-	height:auto;
+  height:auto;
+  margin: 0;
 }
 section.form{
 	display:table;
